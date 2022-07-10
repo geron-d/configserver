@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: shop-api
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    show-sql: true
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3307/shop_spring
+    username: root
+    password:
+    driver-class-name: com.mysql.jdbc.Driver
